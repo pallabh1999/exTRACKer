@@ -1,0 +1,82 @@
+.auth {
+    /* margin: 1rem auto; */
+    width: 100%;
+    max-width: 27rem;
+    border-radius: 75px 25px;
+    background-color: #003c64;
+    opacity: .9;
+    box-shadow: 50px 55px 90px rgba(5, 5, 5, 0.2);
+    padding: 1rem;
+    text-align: center;
+  }
+  .container {
+    height: 95vh;
+    background-image: url('../Assets/HomePAgeBg.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .auth h1 {
+    text-align: center;
+    color: rgb(247, 133, 222);
+  }
+  
+  .control {
+    margin-bottom: 0.5rem;
+  }
+  
+  .control label {
+    display: block;
+    color: rgb(205, 248, 12);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .control input {
+    font: inherit;
+    background-color: #dcc3ec;
+    color: #05040e;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 100%;
+    text-align: left;
+    padding: 0.25rem;
+  }
+  
+  .actions {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .actions button {
+      margin-top: 0.5rem;
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: #1fad12;
+    border: 1px solid #50bd62;
+    border-radius: 15px;
+    padding: 0.5rem 2.5rem;
+  }
+  
+  .actions button:hover {
+    background-color: #69b15b;
+    border-color: #4aac4a;
+  }
+  
+  .actions .toggle {
+    background-color: transparent;
+    color: #ff9090;
+    border: none;
+    padding: 0.15rem 1rem;
+  }
+  
+  .actions .toggle:hover {
+    background-color: transparent;
+    color: #d8d8d8;
+    zoom: 1.05;
+  }

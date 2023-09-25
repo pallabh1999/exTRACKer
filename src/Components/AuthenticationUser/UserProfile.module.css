@@ -1,0 +1,60 @@
+/* UserProfile.css */
+.profileBG {
+    height: 93vh;
+    /* background-image: url('../Assets/HomePAgeBg.jpg'); */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #46a07e;
+      
+  }
+  .profileStatusContainer {
+    position: absolute;
+    top: 100px; 
+    right: 20px; 
+    background-color: #a89cb3; 
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Optional: Add a box shadow */
+  }
+  
+  /* Style for the h6 element */
+  .profileStatus {
+    margin: 2px;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 16px;
+  
+  }
+  .form{
+  background-color: #66c79f;
+    border-bottom: 5px solid rgb(57, 76, 100);
+    border-radius: 25px 75px 25px 75px;
+    padding: 30px;
+    width: 70%;
+    box-shadow: 50px 55px 90px rgba(20, 25, 25, 50);
+  }
+  label{
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 90%;
+  }
+  input{
+    width: 50%;
+    border: #46a07e;
+    padding-left: 2%;
+  
+    border-radius: 50px;
+  }
+  .form button {
+    
+    margin-top: 5%;
+    padding: 5px;
+    background-color: #af574c; /* Green button color */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }

@@ -1,0 +1,72 @@
+.expenselist_wrapper {
+	width: 50%;
+}
+
+@media (max-width: 500px) {
+	.expenselist_wrapper {
+		width: 23rem;
+		margin: 2rem 0;
+	}
+}
+
+.list_wrapper {
+	height: 20rem;
+	list-style: none;
+	overflow: auto;
+}
+
+.list_wrapper__point {
+	margin: 1em auto;
+	padding: 0.8em 3em;
+	width: 91%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	transition: all 0.3s ease-out;
+}
+
+.list_wrapper__point:hover {
+	background-color: #eeffb0;
+}
+
+.list_wrapper__point.income {
+	border-inline-start: 8px solid green;
+	color: rgb(26, 85, 8);
+}
+
+.list_wrapper__point.expense {
+	border-inline-start: 8px solid red;
+	color: red;
+}
+
+
+.norecord_wrapper {
+	width: 90%;
+	height: 15rem;
+	display: flex;
+	color: aqua;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+}
+
+.btn {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+.btn :hover{
+	z-index: 1px;
+}
+
+.downloadButton{
+    background-color: #f06298;
+	border-radius: 20px;
+	border: #f06298;
+    color: white;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+	margin-left: 60%;
+}

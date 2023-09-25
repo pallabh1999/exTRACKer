@@ -1,0 +1,12 @@
+.expense_div {
+	display: flex;
+	overflow: hidden;
+	gap: 10px;
+}
+
+@media (max-width: 500px) {
+	.expense_div {
+		flex-direction: column;
+		margin: 0 0.5em;
+	}
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+.results_wrapper {
+	font-family: 'Roboto Condensed', sans-serif;
+	display: flex;
+	flex-direction: column;
+	margin: 2em 0;
+	height: 10vh;
+}
+
+.income_div {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 2em;
+}
+
+.income_div .expense,
+.expense span {
+	color: red;
+}
+
+.result_div {
+	font-family: 'Roboto Condensed', sans-serif;
+	display: flex;
+	justify-content: space-around;
+	background-color: #eeffb0;
+	color: black;
+	border-radius: 5px;
+	padding: 1em 0;
+	margin-bottom: auto;
+}

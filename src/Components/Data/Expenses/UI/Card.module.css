@@ -1,0 +1,23 @@
+.card {
+	margin: 40px;
+	width: 28rem;
+	height: 28rem;
+	padding: 1em 2em;
+	border-radius: 25px;
+	background-color: #f2f2f2;
+}
+
+.card-result {
+	width: 30rem;
+	height: 25rem;
+	padding: 2em 3em;
+	border-radius: 15px;
+	background-color: rgb(3, 2, 2);
+	color: white;
+}
+
+@media (max-width: 500px) {
+	.card {
+		width: 17rem;
+	}
+}
